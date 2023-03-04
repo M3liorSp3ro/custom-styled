@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "target": "ESNext",
+        "module": "CommonJS",
+        "lib": ["ESNext", "DOM"],
+        "declaration": true,
+        "outDir": "build",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}
